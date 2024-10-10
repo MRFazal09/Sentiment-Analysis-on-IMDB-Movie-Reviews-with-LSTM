@@ -91,3 +91,23 @@ reviews = [
 
 for review in reviews:
     predict_sentiment(review)
+
+####################
+# Additional example reviews
+additional_reviews = [
+    "The plot was very confusing, and the actors seemed uninterested. I wouldn’t watch it again.",
+    "Absolutely brilliant! The visuals were stunning, and the storyline was deeply moving.",
+    "It was a complete waste of time. I regret watching this movie.",
+    "The characters were well-developed, and I loved the unexpected twists in the story.",
+    "Not my cup of tea. The pacing was slow, and I found it hard to stay engaged.",
+    "A fantastic movie with top-notch acting and a great script!",
+    "The storyline was predictable, and it felt like I've seen this type of movie a hundred times before.",
+    "It was an enjoyable watch. The soundtrack was amazing, and I left the theater feeling happy.",
+    "One of the worst movies I have ever seen. Don't waste your money on this one.",
+    "The cinematography was beautiful, but the story didn’t make much sense.",
+]
+
+# Predict the sentiment for each additional review
+for review in additional_reviews:
+    predict_sentiment(review)
+
